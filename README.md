@@ -47,6 +47,7 @@ import json
 # Download NLTK data (only need to run this once)
 nltk.download('punkt')
 
+
 # Load JSON data
 with open('data.json') as f:
     data = json.load(f)
@@ -59,6 +60,7 @@ def get_response(user_input):
     return "I'm not sure how to respond to that. Can you ask something else?"
 
 def chatbot():
+
     print("Hello! I'm here to help you with your college queries. How can I assist you today?")
 
     while True:
@@ -80,20 +82,25 @@ Create a file named data.json and populate it with your college-related query da
 Here's an example structure:
 
 json
+
+
 [
     {
         "keywords": ["admission", "apply"],
         "response": "You can apply for admission through our online portal. Visit our website for more details."
     },
+    
     {
         "keywords": ["courses", "programs"],
         "response": "We offer a variety of courses in multiple disciplines. Check out our course catalog on the website."
     },
+    
     {
         "keywords": ["fees", "tuition"],
         "response": "The tuition fees vary by program. Please visit the fees section on our website for detailed information."
     }
 ]
+
 Run the Chatbot:
 
 In your command prompt or terminal, navigate to the project directory and run the script:
