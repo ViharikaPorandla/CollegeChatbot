@@ -1,0 +1,14 @@
+[
+    {
+        "keywords": ["admission", "apply"],
+        "response": "You can apply for admission through our online portal. Visit our website for more details."
+    },
+    {
+        "keywords": ["courses", "programs"],
+        "response": "We offer a variety of courses in multiple disciplines. Check out our course catalog on the website."
+    },
+    {
+        "keywords": ["fees", "tuition"],
+        "response": "The tuition fees vary by program. Please visit the fees section on our website for detailed information."
+    }
+]
