@@ -60,9 +60,7 @@ def get_response(user_input):
     return "I'm not sure how to respond to that. Can you ask something else?"
 
 def chatbot():
-
     print("Hello! I'm here to help you with your college queries. How can I assist you today?")
-
     while True:
         user_input = input("You: ").lower()
         if user_input in ["bye", "exit", "quit"]:
@@ -86,8 +84,10 @@ json
 
 [
     {
+    
         "keywords": ["admission", "apply"],
         "response": "You can apply for admission through our online portal. Visit our website for more details."
+        
     },
     
     {
