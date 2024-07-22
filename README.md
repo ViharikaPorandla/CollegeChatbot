@@ -70,9 +70,13 @@ def chatbot():
         print(f"Bot: {response}")
 
 # Run the chatbot function
+
 chatbot()
+
 Create the data.json File:
+
 Create a file named data.json and populate it with your college-related query data.
+
 Here's an example structure:
 
 json
@@ -91,5 +95,7 @@ json
     }
 ]
 Run the Chatbot:
+
 In your command prompt or terminal, navigate to the project directory and run the script:
+
 python chatbot.py
